@@ -1,2 +1,18 @@
 # COVID-Cases-Forecasting-Based-on-Mobility-Using-Prophet
-COVID-19 merupakan penyakit yang dapat menular ke sesama manusia dengan cepat. Penelitian sebelumnya telah membuktikan bahwa pergerakan manusia saat ini dapat mempengaruhi tingkat penularan COVID-19. Oleh karena itu, pembatasan pergerakan manusia perlu diterapkan oleh pemerintah agar penyebaran penyakit ini dapat dikurangi. Khususnya di wilayah yang padat penduduk seperti Pulau Jawa dan wilayah dengan jumlah wisatawan tinggi seperti Pulau Bali. Penelitian ini bertujuan melakukan prediksi penambahan jumlah kasus COVID-19 di wilayah Jawa dan Bali dengan data mobilitas masyarakat sebagai regresor. Penelitian ini menerapkan arsitektur FBProphet dengan penyesuaian model untuk setiap provinsi dengan nilai Mean of Absolute Percentage Error setiap model provinsi berkisar antara 8,5% hingga 17,1%. Dalam penelitian ini, hasil prediksi diunggah melalui dasbor interaktif sehingga memudahkan untuk diakses oleh masyarakat luas.
+Abstract
+COVID-19 is a disease infecting human through human rapidly. Previous
+research proved that nowadays community mobility affects the level of infection of
+COVID-19. Thus, the government should implement a mobility restriction policy to
+decrease the transmission, especially in a densely populated region like Java and
+a highly visited region like Bali. This research aims to forecast daily new cases of
+COVID-19 in the region of Java and Bali based on community mobility data as
+regressor. This research implements the FBProphet model with tuned parameters
+for each province within Mean of Absolute Percentage Error value in a range of
+8,5% to 17,1%. In this research, the forecasting output is uploaded to an interactive
+visualization dashboard for public access ease.
+
+For better understanding about the research, please kindly visit the repo in https://repository.ipb.ac.id/handle/123456789/113251
+
+About notebooks:
+1. covid.mobility.ipynb used to do predictive analysis using FBProphet. Including all research process from data exploration to Prophet component analysis.
+2. covid.mobility.result.ipynb used to upload the output of FBProphet forecasting model into GSheets. Afterwards, the uploaded data would be visualized using Google Data Studio. The dashboard could be seen in https://datastudio.google.com/u/0/reporting/17d59169-7318-43ee-9516-6053115f78f4/page/hJOuC  
